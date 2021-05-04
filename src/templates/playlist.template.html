@@ -1,7 +1,6 @@
 <div class="list-group">
     {{ #playlist }}
-        <a href="#" 
-            class="list-group-item list-group-item-action {{ #isPlaying }}active{{ /isPlaying }}" 
+        <a class="list-group-item list-group-item-action {{ #isPlaying }}active{{ /isPlaying }}" 
             onclick="player.play({{index}})">
             <h6>
                 {{ title }}
