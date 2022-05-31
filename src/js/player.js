@@ -1,7 +1,7 @@
 import { load as load_template } from './templates';
 import Mustache from 'mustache';
 
-import { mediaplayer } from 'agl-js-api';
+import * as mediaplayer from './agl_stubs_mediaplayer';
 
 var template;
 var root;

@@ -3,8 +3,6 @@ import * as player from './player';
 import * as playlist from './playlist';
 import Mustache from 'mustache';
 
-import { mediaplayer } from 'agl-js-api';
-
 var template;
 var page = {
 

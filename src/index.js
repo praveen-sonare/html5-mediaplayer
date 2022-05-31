@@ -18,13 +18,10 @@ import * as app from './js/app';
 import * as player from './js/player';
 import * as playlist from './js/playlist';
 
-import { api } from 'agl-js-api';
-
 /* CSS */
 import './styles/app.scss';
 
 window.player = player;
 window.playlist = playlist;
 
-api.init();
 app.init();
