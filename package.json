@@ -7,10 +7,10 @@
         "build": "webpack",
         "start": "webpack-dev-server"
     },
-    "homepage": "https://github.com/AGL-web-applications/mediaplayer",
+    "homepage": "https://git.automotivelinux.org/apps/html5-mediaplayer",
     "repository": {
         "type": "git",
-        "url": "git@github.com:AGL-web-applications/mediaplayer.git"
+        "url": "https://gerrit.automotivelinux.org/gerrit/apps/html5-mediaplayer"
     },
     "keywords": [
         "agl",
